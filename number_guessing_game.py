@@ -80,6 +80,7 @@ def main():
         play_again = input("\nDo you want to play again? (yes or no): ").strip().lower()
         if play_again != 'yes':
             print("Thank you for playing! Goodbye!")
+            time.sleep(2)
             break
 
 if __name__ == "__main__":
